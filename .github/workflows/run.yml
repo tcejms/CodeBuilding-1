@@ -15,7 +15,7 @@ jobs:
 
       - name: Random delay (0-60 phút)
         run: |
-          DELAY=$(( RANDOM % 61 ))
+          DELAY=$(( RANDOM % 2 ))
           echo "Ngủ $DELAY phút trước khi chạy..."
           sleep ${DELAY}m
 
